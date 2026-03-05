@@ -1,0 +1,37 @@
+D:\Github\LapTrinh.Net\Lab-03\bin\Debug\net8.0-windows\Lab-03.exe
+D:\Github\LapTrinh.Net\Lab-03\bin\Debug\net8.0-windows\Lab-03.deps.json
+D:\Github\LapTrinh.Net\Lab-03\bin\Debug\net8.0-windows\Lab-03.runtimeconfig.json
+D:\Github\LapTrinh.Net\Lab-03\bin\Debug\net8.0-windows\Lab-03.dll
+D:\Github\LapTrinh.Net\Lab-03\bin\Debug\net8.0-windows\Lab-03.pdb
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\Lab-03.csproj.GenerateResource.cache
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\Lab-03.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\Lab-03.AssemblyInfoInputs.cache
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\Lab-03.AssemblyInfo.cs
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\Lab-03.csproj.CoreCompileInputs.cache
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\Lab-03.sourcelink.json
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\Lab-03.dll
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\refint\Lab-03.dll
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\Lab-03.pdb
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\Lab-03.genruntimeconfig.cache
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\ref\Lab-03.dll
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\Lab_03.FormCalculator.resources
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\Lab_03.FormUocBoi.resources
+D:\Github\LapTrinh.Net\Lab-03\obj\Debug\net8.0-windows\Lab_03.FormCalculatorFull.resources
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\bin\Debug\net8.0-windows\Lab-03.exe
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\bin\Debug\net8.0-windows\Lab-03.deps.json
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\bin\Debug\net8.0-windows\Lab-03.runtimeconfig.json
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\bin\Debug\net8.0-windows\Lab-03.dll
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\bin\Debug\net8.0-windows\Lab-03.pdb
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\Lab_03.FormCalculator.resources
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\Lab_03.FormCalculatorFull.resources
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\Lab_03.FormUocBoi.resources
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\Lab-03.csproj.GenerateResource.cache
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\Lab-03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\Lab-03.AssemblyInfoInputs.cache
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\Lab-03.AssemblyInfo.cs
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\Lab-03.csproj.CoreCompileInputs.cache
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\Lab-03.dll
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\refint\Lab-03.dll
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\Lab-03.pdb
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\Lab-03.genruntimeconfig.cache
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-03\obj\Debug\net8.0-windows\ref\Lab-03.dll
