@@ -1,0 +1,16 @@
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\bin\Debug\net8.0-windows\Lab-05-Listbox.exe
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\bin\Debug\net8.0-windows\Lab-05-Listbox.deps.json
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\bin\Debug\net8.0-windows\Lab-05-Listbox.runtimeconfig.json
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\bin\Debug\net8.0-windows\Lab-05-Listbox.dll
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\bin\Debug\net8.0-windows\Lab-05-Listbox.pdb
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\obj\Debug\net8.0-windows\Lab_05_Su_dung_Listbox___Quan_ly_tinh_tien_phong_kham_rang.Form1.resources
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\obj\Debug\net8.0-windows\Lab-05-Listbox.csproj.GenerateResource.cache
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\obj\Debug\net8.0-windows\Lab-05-Listbox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\obj\Debug\net8.0-windows\Lab-05-Listbox.AssemblyInfoInputs.cache
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\obj\Debug\net8.0-windows\Lab-05-Listbox.AssemblyInfo.cs
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\obj\Debug\net8.0-windows\Lab-05-Listbox.csproj.CoreCompileInputs.cache
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\obj\Debug\net8.0-windows\Lab-05-Listbox.dll
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\obj\Debug\net8.0-windows\refint\Lab-05-Listbox.dll
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\obj\Debug\net8.0-windows\Lab-05-Listbox.pdb
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\obj\Debug\net8.0-windows\Lab-05-Listbox.genruntimeconfig.cache
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-05.Listbox\obj\Debug\net8.0-windows\ref\Lab-05-Listbox.dll
