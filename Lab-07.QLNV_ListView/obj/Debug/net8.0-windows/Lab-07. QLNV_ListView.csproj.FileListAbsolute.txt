@@ -1,0 +1,16 @@
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\bin\Debug\net8.0-windows\Lab-07. QLNV_ListView.exe
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\bin\Debug\net8.0-windows\Lab-07. QLNV_ListView.deps.json
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\bin\Debug\net8.0-windows\Lab-07. QLNV_ListView.runtimeconfig.json
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\bin\Debug\net8.0-windows\Lab-07. QLNV_ListView.dll
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\bin\Debug\net8.0-windows\Lab-07. QLNV_ListView.pdb
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\obj\Debug\net8.0-windows\Lab_07._Quản_lý_nhân_viên_sử_dụng_ListView.Form1.resources
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\obj\Debug\net8.0-windows\Lab-07. QLNV_ListView.csproj.GenerateResource.cache
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\obj\Debug\net8.0-windows\Lab-07. QLNV_ListView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\obj\Debug\net8.0-windows\Lab-07. QLNV_ListView.AssemblyInfoInputs.cache
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\obj\Debug\net8.0-windows\Lab-07. QLNV_ListView.AssemblyInfo.cs
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\obj\Debug\net8.0-windows\Lab-07. QLNV_ListView.csproj.CoreCompileInputs.cache
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\obj\Debug\net8.0-windows\Lab-07. QLNV_ListView.dll
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\obj\Debug\net8.0-windows\refint\Lab-07. QLNV_ListView.dll
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\obj\Debug\net8.0-windows\Lab-07. QLNV_ListView.pdb
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\obj\Debug\net8.0-windows\Lab-07. QLNV_ListView.genruntimeconfig.cache
+C:\Users\Huy Nguyen\Desktop\CN.NET\Lab-07.QLNV_ListView\obj\Debug\net8.0-windows\ref\Lab-07. QLNV_ListView.dll
