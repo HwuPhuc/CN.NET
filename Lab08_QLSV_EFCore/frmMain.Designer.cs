@@ -113,6 +113,7 @@
             tsbMonHoc.Name = "tsbMonHoc";
             tsbMonHoc.Size = new Size(114, 36);
             tsbMonHoc.Text = "Mon hoc";
+            tsbMonHoc.Click += tsbMonHoc_Click;
             // 
             // tsbNhapDiem
             // 
@@ -122,6 +123,7 @@
             tsbNhapDiem.Name = "tsbNhapDiem";
             tsbNhapDiem.Size = new Size(137, 36);
             tsbNhapDiem.Text = "Nhap diem";
+            tsbNhapDiem.Click += tsbNhapDiem_Click;
             // 
             // toolStripSeparator1
             // 
@@ -159,6 +161,7 @@
             tsbThoat.Name = "tsbThoat";
             tsbThoat.Size = new Size(79, 36);
             tsbThoat.Text = "Thoat";
+            tsbThoat.Click += tsbThoat_Click;
             // 
             // frmMain
             // 

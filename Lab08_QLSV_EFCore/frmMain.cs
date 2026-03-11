@@ -46,5 +46,43 @@ namespace Lab08_QLSV_EFCore
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void tsbMonHoc_Click(object sender, EventArgs e)
+        {
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Text == "frmMonHoc")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+            var frm = new frmMonHoc();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void tsbNhapDiem_Click(object sender, EventArgs e)
+        {
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Text == "frmNhapDiem")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+            var frm = new frmNhapDiem();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void tsbThoat_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Ban co chac chan muon thoat?", "Ban muon thoat?", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
     }
 }

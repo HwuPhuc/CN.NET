@@ -33,7 +33,7 @@ namespace Lab08_QLSV_EFCore
                 k.TenKhoa
             }).ToList();
 
-            dgvKhoa.DataSource = db.Khoas.ToList();
+            dgvKhoa.DataSource = ds;
             if (dgvKhoa.Rows.Count > 0)
             {
                 dgvKhoa.Columns["MaKhoa"].HeaderText = "Ma khoa";
