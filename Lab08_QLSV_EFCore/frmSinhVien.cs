@@ -90,6 +90,7 @@ namespace Lab08_QLSV_EFCore
             db.SaveChanges();
 
             LoadDSSV();
+            MessageBox.Show("Them sinh vien thanh cong!");
         }
 
         private void dgvSinhVien_SelectionChanged(object sender, EventArgs e)
@@ -106,10 +107,16 @@ namespace Lab08_QLSV_EFCore
             if (DateTime.TryParseExact(ns, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out DateTime ngay))
                 dtpNgaySinh.Value = ngay;
 
-            cboGioiTinh.SelectedItem = row.Cells["GioiTinh"].Value?.ToString() == "Nam";
+            cboGioiTinh.SelectedItem = row.Cells["GioiTinh"].Value?.ToString() == "Nam" ? "Nam" : "Nu";
 
             string tenKhoa = row.Cells["TenKhoa"].Value?.ToString().Trim();
-            // foreach (Khoa k in )
+            foreach (Khoa k in cboKhoa.Items)
+            {
+                if (k.TenKhoa.Trim() == tenKhoa) {
+                    cboKhoa.SelectedItem = k;
+                    break;
+                }
+            }
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -119,6 +126,25 @@ namespace Lab08_QLSV_EFCore
                 MessageBox.Show("Vui long chon sinh vien can sua!");
                 return;
             }
+
+            SinhVien? sv = db.SinhViens.Find(MaSo);
+
+            if (sv == null)
+            {
+                MessageBox.Show("Khong tim thay!");
+                return;
+            }
+
+            sv.HoTen = txtTen.Text.Trim();
+            sv.NgaySinh = dtpNgaySinh.Value;
+            sv.GioiTinh = cboGioiTinh.SelectedItem.ToString() == "Nam";
+            sv.DiaChi = txtDiaChi.Text.Trim();
+            sv.DienThoai = int.TryParse(txtSDT.Text, out int sdt) ? sdt : null;
+            sv.MaKhoa = cboKhoa.SelectedValue?.ToString();
+
+            db.SaveChanges();
+            LoadDSSV();
+            MessageBox.Show("Cap nhat thanh cong!");
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -132,10 +158,16 @@ namespace Lab08_QLSV_EFCore
 
             if (cf != DialogResult.Yes) return;
 
+            //Xoa ket qua
             var kqs = db.KetQuas.Where(kq => kq.MaSo == MaSo).ToList();
             db.KetQuas.RemoveRange(kqs);
 
+            SinhVien sv = db.SinhViens.Find(MaSo);
+            if (sv != null) db.SinhViens.Remove(sv);
 
+            db.SaveChanges();
+            LoadDSSV();
+            MessageBox.Show("Xoa sinh vien thanh cong!");
         }
 
         private void LamMoiForm()
@@ -148,6 +180,7 @@ namespace Lab08_QLSV_EFCore
             txtDiaChi.Clear();
             txtSDT.Clear();
             if (cboKhoa.Items.Count > 0) cboKhoa.SelectedIndex = 0;
+            txtTim.Clear();
         }
 
         private void btnLamMoi_Click(object sender, EventArgs e)
@@ -159,7 +192,7 @@ namespace Lab08_QLSV_EFCore
         private void btnTim_Click(object sender, EventArgs e)
         {
             string kw = txtTim.Text.Trim().ToLower();
-            var kq = db.SinhViens.Where(sv => sv.HoTen.ToLower().Contains(kw)).Include(sv => sv.MaKhoaNavigation).Select(sv => new
+            var kq = db.SinhViens.Where(sv => sv.HoTen.ToLower().Contains(kw) || (sv.DiaChi != null && sv.DiaChi.ToLower().Contains(kw))).Include(sv => sv.MaKhoaNavigation).Select(sv => new
             {
                 sv.MaSo,
                 sv.HoTen,
